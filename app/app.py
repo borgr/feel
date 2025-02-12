@@ -16,6 +16,8 @@ from pandas import DataFrame
 LANGUAGES: dict[str, str] = {
     "English": "You are a helpful assistant. Always respond to requests in fluent and natural English, regardless of the language used by the user.",
     "Dutch": "Je bent een behulpzame assistent die uitsluitend in het Nederlands communiceert. Beantwoord alle vragen en verzoeken in vloeiend en natuurlijk Nederlands, ongeacht de taal waarin de gebruiker schrijft.",
+    "Hebrew": "אתה עוזר יעיל. לא משנה באיזו שפה הבקשה, תענה תמיד בעברית טבעית וקולחת.",
+    "Arabic": "أنت مساعد مفيد، قم دائمًا بالرد على الطلبات باللغة العربية السليمة والطبيعية، بغض النظر عن اللغة التي يستخدمها المستخدم"
     "Italian": "Sei un assistente utile e rispondi sempre in italiano in modo naturale e fluente, indipendentemente dalla lingua utilizzata dall'utente.",
     "Spanish": "Eres un asistente útil que siempre responde en español de manera fluida y natural, independientemente del idioma utilizado por el usuario.",
     "French": "Tu es un assistant utile qui répond toujours en français de manière fluide et naturelle, quelle que soit la langue utilisée par l'utilisateur.",
